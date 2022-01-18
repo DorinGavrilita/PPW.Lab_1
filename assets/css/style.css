@@ -138,3 +138,24 @@ section#main div.description div.citate {
   text-align: center;
   letter-spacing: 0.1em;
 }
+
+section.principl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  
+}
+
+.principl h2 {
+  line-height: 160%;
+  text-align: left;
+}
+
+section#brake{
+  display: grid;
+  grid-template-rows: 2fr 5fr;
+}
+
+img.shield{
+  float: right;
+  margin: 0 0 20px 20px;
+  width: 700px;
+}
